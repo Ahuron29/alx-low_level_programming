@@ -15,8 +15,4 @@ sumx += a[i];
 for (i = size - 1; i < (size * size - 1); i += size - 1)
 sumy += a[i];
 printf("%d, %d\n", sumx, sumy);
-sumx += a[i];
-for (i = size - 1; i < (size * size - 1); i += size - 1)
-sumy += a[i];
-printf("%d, %d\n", sumx, sumy);
 }

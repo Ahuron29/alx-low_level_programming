@@ -17,7 +17,7 @@ for (len = 0; str[len] != '\0'; len++)
 len++;
 if (len < 1)
 return (NULL);
-p = malloc(len * sizeof(char));
+p = malloc(len *sizeof(char));
 if (p == NULL)
 {
 free(p);

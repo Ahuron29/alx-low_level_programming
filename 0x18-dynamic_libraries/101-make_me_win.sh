@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -fPIC -shared -o libruin.so
-LD_PRELOAD=$PWD/libruin.so
+wget -q -O /tmp/librandy1.so https://github.com/ianliu-johnston/BatchScripts/raw/master/librandy1.so
+ export LD_PRELOAD=/tmp/librandy1.so
